@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <pv.com.pvcloudgo.vc.widget.ClearEditText
+        android:id="@+id/ed_comment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:hint="请输入您要评论的内容"
+        android:maxLines="4"
+
+        android:textColor="#434350"
+        android:textColorHint="#AFAFAF"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/btn_fabu_pl"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="7dp"
+        style="@style/bigOrangeButton"
+        android:text="评论"
+        android:textColor="#434350"
+        android:layout_height="40dp" />
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/middlePadding"
+    android:layout_marginTop="@dimen/middlePadding"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+
+        <CheckBox
+            android:id="@+id/cart_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:button="@drawable/selector_checkbox"
+            android:checked="false" />
+
+
+    <com.facebook.drawee.view.DraweeView
+        android:id="@+id/cart_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="@dimen/largePadding"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/normal_content"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="@dimen/smallPadding"
+        android:layout_weight="1"
+        android:orientation="vertical"
+     >
+
+        <TextView
+            android:id="@+id/cart_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="无数据"
+            android:textColor="@color/blackgray"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/cart_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/smallPadding"
+            android:singleLine="true"
+            android:text="服务器已经关闭"
+            android:textColor="@color/gray"
+            android:textSize="11sp" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/middlePadding">
+
+            <TextView
+                android:id="@+id/cart_totalprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="￥？？？"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cart_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="3dp"
+                android:layout_toLeftOf="@+id/cart_count"
+                android:text="￥？？？"
+                android:textColor="@color/gray"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/cart_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/middlePadding"
+                android:text="x？？？"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

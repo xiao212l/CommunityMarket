@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="115dp"
+    android:minHeight="115dp"
+    android:orientation="horizontal"
+    android:id="@+id/goodlist">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="105dp"
+        android:layout_height="115dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f4f4f4"/>
+
+        <TextView
+            android:paddingRight="5dp"
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:paddingTop="15dp"
+            android:text="加载中，请稍候"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/tv_sub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#999999"
+            android:textSize="12sp"
+            android:paddingBottom="15dp"
+            android:maxLines="2"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

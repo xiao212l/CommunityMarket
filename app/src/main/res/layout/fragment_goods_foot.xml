@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+
+
+    <ProgressBar
+        android:id="@+id/item_footer_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_toLeftOf="@+id/item_footer_message"
+        android:indeterminateTint="#1296db" />
+    <TextView
+        android:id="@+id/item_footer_message"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:gravity="center"
+        android:text="加载中"
+        android:layout_centerInParent="true" />
+
+
+</RelativeLayout>

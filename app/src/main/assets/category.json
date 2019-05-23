@@ -1,0 +1,13 @@
+{
+        "status": 10003,
+        "message": "用户登录成功",
+        "data": {
+                "id": 4,
+                "username": "Gopher",
+                "gender": "female",
+                "profileImg": "http://pmt5ma5mu.bkt.clouddn.com/avatar.jpg",
+                "motto": "生命不息,奋斗不止",
+                "email": "beautifulsoup@126.com",
+                "token": "36f304d0-1cbb-41ad-a75f-cdbf8838e2e6"
+        }
+}

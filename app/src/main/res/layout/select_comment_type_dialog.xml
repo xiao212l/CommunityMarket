@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/like"
+        android:layout_gravity="center"
+        android:id="@+id/good">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/meh"
+        android:layout_gravity="center"
+        android:id="@+id/meh">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/unlike"
+        android:layout_gravity="center"
+        android:id="@+id/bad">
+
+    </TextView>
+
+</LinearLayout>
